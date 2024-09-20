@@ -114,7 +114,8 @@ html {
   transform: translate(-50%, 50%);
   width: 16rem;
   max-width: 16rem;
-  border-radius: 999px; }
+  border-radius: 999px;
+  color: #260f08; }
   .item__btn--icon {
     width: 2rem;
     height: 2rem;
