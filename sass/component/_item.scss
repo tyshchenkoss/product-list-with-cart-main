@@ -1,0 +1,66 @@
+$red-price: hsl(14, 86%, 42%);
+
+$rose400: hsl(7, 20%, 60%);
+$rose500: hsl(12, 20%, 44%);
+$rose900: hsl(14, 65%, 9%);
+
+.item {
+  &__img-box {
+    position: relative;
+  }
+
+  &__img {
+    width: 100%;
+  }
+
+  &__btn {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+    width: 16rem;
+    max-width: 16rem;
+    border-radius: 999px;
+
+    &--icon {
+      width: 2rem;
+      height: 2rem;
+      border: 1px solid #fff;
+      border-radius: 50%;
+      padding: 3.75px;
+    }
+  }
+
+  &__btn--empty {
+    background-color: #fff;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    padding: 1.2rem 2.8rem;
+    border: 1px solid $rose400;
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+
+  &__btn--counter {
+    background-color: hsl(14, 86%, 42%);
+    color: #fff;
+    font-size: 1.4rem;
+    display: flex;
+    padding: 1.2rem;
+    justify-content: space-between;
+    border: none;
+  }
+
+  &__btn:hover {
+    cursor: pointer;
+  }
+
+  &__text-box {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-top: 3.8rem;
+  }
+}
